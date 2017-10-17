@@ -22,6 +22,11 @@ body {
 .row {
     margin-bottom: 20px;
   }
+  .contact-list li {
+    list-style: none;
+    font-weight: bold;
+    line-height: 3.2em;
+  }
   
 footer {
     background: #3b5a76;
