@@ -2,7 +2,7 @@ body {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
     line-height: 1.428571429;
-    color: #333;
+    color: #242020;
 }
   
 .container-main {
@@ -19,6 +19,10 @@ body {
 .line {
     max-width: 100%;
 }
+.row {
+    margin-bottom: 20px;
+  }
+  
 footer {
     background: #3b5a76;
     color: #fff;
