@@ -35,3 +35,13 @@ footer {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+
+.right-section{
+    margin-top: 10px;
+    border: 2px solid yellow;
+    width: 60%;
+    height: 760px;
+    float: right;
+    border-radius: 10px;
+  }
