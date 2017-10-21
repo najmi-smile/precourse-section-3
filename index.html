@@ -14,27 +14,30 @@
 <body>
   <header class="page-header">
     <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
+      <div class="container">
           <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar">Home</span>
-                <span class="icon-bar">Contact Us</span>
-                <span class="icon-bar"></span>
-              </button>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar">Home</span>
+              <span class="icon-bar">Contact Us</span>
+              <span class="icon-bar"></span>
+            </button>
             <a class="navbar-brand" href="index.html">Tahir Raza</a>
           </div>
+          <ul class="nav navbar-nav navbar-left">
+              <li class="active"><a href="#one">About Me</a></li>
+              <li><a href="#two">NorthCoders Assignments</a></li>            
+            </ul>   
           <div id="navbar" class="collapse navbar-collapse navbar-right">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="index.html">Home</a></li>
-              <li><a href="#">Contact Us</a></li>            
-            </ul>
+              <li><a href="index.html"><i class="fa fa-user-plus" aria-hidden="true"> SignUp</i></a></li>
+              <li><a href="#"><i class="fa fa-user" aria-hidden="true"> SignIn</i></a></li>            
+            </ul>                        
           </div><!--/.nav-collapse -->
         </div>
       </nav>
     </header>
-  <section class="row">       <!--  Section 1 -->
-    
+  <section id="one" class="row hide">       <!--  Section 1 -->    
     <article id="sec1-art1" class="col-md-7">     <!--  Section 1 Article 1   -->
       <h2># About Me</h2>
       <p>I'm tahir anjam raza, lives in stoke on trent. Starting the cohort in november from northcoders manchester
@@ -53,7 +56,7 @@
     </article>    <!--  Section 1 Article 2   -->
   </section>      <!--  Section 1 --> 
 <!--  --------------------------- Section Break ---------------------- -->
-  <section class="row">       <!--  Section 2 -->
+  <section id="two" class="row hide">       <!--  Section 2 -->
     <article class="col-md-7">     <!--  Section 2 Article 1   -->
       <h2># Assignment Links</h2>
     </article>    <!--  Section 2 Article 1   -->
