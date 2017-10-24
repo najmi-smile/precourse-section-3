@@ -9,7 +9,8 @@
   <script src="https://use.fontawesome.com/933265fed2.js"></script>
   
   <link rel="stylesheet" href="css/main.css">
-  <title>TR</title>
+  <link rel="stylesheet" href="css/style.css">
+  <title>PaddleGame</title>
 </head>
 <body>
   <header class="page-header">
@@ -29,7 +30,7 @@
             <ul class="nav navbar-nav navbar-left">
               <li><a href="about.html">About Me</a></li>
               <li ><a href="northcoders-assignments.html">NorthCoders Assignments</a></li>
-              <li><a href="paddlegame.html">PaddleGame</a></li>
+              <li class="active"><a href="paddlegame.html">PaddleGame</a></li>
             </ul> 
             <!-- <hr> -->
             <ul class="nav navbar-nav navbar-right">
@@ -40,12 +41,22 @@
         </div>
       </nav>
     </header>
+    
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="jumbotron">
+          <p>please use LEFT RIGHT keys to play the game</p>
+        </div>
+      </div>
+      <div class="md-lg-8">  
+        <div class="jumbotron">
+            <canvas id="myCanvas" width="405" height="320"></canvas> 
+        </div>     
+      </div>
+    </div>
+    
+ 
    
-    <ul>
-      <li><a href="about.html">About Me</a></li>
-      <li><a href="northcoders-assignments.html">NorthCoders Assignments</a></li>            
-    </ul>
-  
     <footer class="page-footer">
     <div class="container">
       <p>Copyright &copy; 11/2017, Tahir Raza</p>
@@ -54,6 +65,6 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-  <script src="main.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
